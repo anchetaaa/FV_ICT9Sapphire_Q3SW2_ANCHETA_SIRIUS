@@ -1,0 +1,44 @@
+*{
+	font-family: 'EB Garamond', serif;
+	font-size: 20px;
+	color: white;
+	margin: 3px;
+	padding: 3px;
+}
+.header{
+	text-align: center;
+	font-weight: bold;
+	font-size: 30px;
+	border: solid;
+	border-radius: 10px;
+}
+.bar{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+img{
+	width: 400px;
+	height: 600px;
+}
+body{
+	background-image: url(books.jpg);
+}
+thead{
+	background-color: darkcyan;
+}
+button{
+	background-color: #f9004d;
+	color: whitesmoke;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 13px 30px ;
+	border-radius: 30px;
+	transition: .4s;
+}
+button:hover{
+	background-color: transparent;
+	border: 2px solid #f9004d;
+	cursor: pointer;
+
+}
